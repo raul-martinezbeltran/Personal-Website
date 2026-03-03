@@ -18,6 +18,11 @@ export default function Home() {
           I enjoy working with. I focus on building clean, scalable, and
           user-centered web applications.
         </p>
+
+        <p className="text-gray-600 leading-relaxed max-w-2xl">
+          I graduated from U.C. San Diego with a B.S. in Computer Science and
+          minored in cognitive science.
+        </p>
       </main>
     </div>
   );
