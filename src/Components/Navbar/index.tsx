@@ -8,11 +8,11 @@ export default function Navbar() {
           <Link to="/" className="hover:text-black transition">
             Home
           </Link>
-          <Link to="/coursework" className="hover:text-black transition">
-            Coursework
-          </Link>
           <Link to="/projects" className="hover:text-black transition">
             Projects
+          </Link>
+          <Link to="/coursework" className="hover:text-black transition">
+            Coursework
           </Link>
           <Link to="/employment" className="hover:text-black transition">
             Employment

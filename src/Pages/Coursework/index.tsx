@@ -18,14 +18,26 @@ export default function Coursework() {
 
         <div className="space-y-2">
           <Course
+            code="CSE 100"
+            name="Advanced Data Structures"
+            description="Theoretical and performance analysis of high performance data structures and algorithms. Some data structures include unbalanced tress, graphs, and priority queues."
+          />
+          <Course
+            code="CSE 101"
+            name="Design and Analysis of Algorithms"
+            description="Design and analysis of algorithms, measuring complexity of algorithms, time and storage."
+          />
+          <Course
             code="CSE 110"
             name="Software Engineering"
-            description="Coded with a group"
+            description="Introduction to software development and engineering methods. Hands-on with specification, design,
+            implementation, and testing. Agile and tools such as IDE's, version control and test harness were used."
           />
           <Course
             code="CSE 112"
             name="Advanced Software Engineering"
-            description="Coded with a group"
+            description="Software engineering topics with large systems such as requirements, specifications, testing, maintenance, and design.
+            A huge emphasis is placed on development tools and automated environments."
           />
         </div>
       </main>
