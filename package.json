@@ -3,14 +3,14 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://raul-martinezbeltran.github.io/Personal-Website/#",
+  "homepage": "https://raul-martinezbeltran.github.io/Personal-Website/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
