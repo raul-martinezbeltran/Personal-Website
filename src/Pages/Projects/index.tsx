@@ -21,7 +21,7 @@ export default function Projects() {
             name="Food Journal Web Application"
             description="A food journal"
             link="https://github.com/raul-martinezbeltran/FoodJournal2.0"
-            skills={["Python", "HTML"]}
+            skills={["Python", "HTML", "JavaScript"]}
           />
           <Project
             name="Birds of a Feather Android Application"
