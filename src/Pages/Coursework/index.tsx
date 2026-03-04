@@ -3,7 +3,7 @@ import Navbar from "../../Components/Navbar";
 
 export default function Coursework() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen text-gray-900">
       <Navbar />
 
       <main className="max-w-5xl mx-auto px-6 py-10">
