@@ -19,6 +19,13 @@ export default function Employment() {
         <div className="space-y-2">
           <Job
             company="Apple"
+            title="Community Specialist"
+            location="San Diego, CA"
+            date="October 2024 - December 2025"
+            description="Sell stuff"
+          />
+          <Job
+            company="Apple"
             title="Reseller Specialist"
             location="San Diego, CA"
             date="April 2022 - October 2024"
