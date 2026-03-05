@@ -22,14 +22,25 @@ export default function Employment() {
             title="Community Specialist"
             location="San Diego, CA"
             date="November 2024 - December 2025"
-            description="sell stuff"
+            tasks={[
+              "Analyzed sales data to formulate strategies with reseller partners using Tableau and Excel",
+              "Establish and grow relationships with reseller partners to grow consumer and small business channels",
+              "Execute based on sales trends to drive KPIs and increase Y/ Y revenue",
+              "Uphold business standards and manage confidential information. Maintain merchandising and operational success",
+              "Provide and maintain company and brand image",
+            ]}
           />
           <Job
             company="Apple"
             title="Reseller Specialist"
             location="San Diego, CA"
             date="April 2022 - October 2024"
-            description="Sell stuff"
+            tasks={[
+              "Developed growth-driven solutions for customers",
+              "Uphold business standards and manage confidential information",
+              "Trained partner leadership in product presentation and sales",
+              "Debugged device configuration issues for demonstrations",
+            ]}
           />
         </div>
       </main>

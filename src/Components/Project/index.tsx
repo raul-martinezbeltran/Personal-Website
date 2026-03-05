@@ -34,6 +34,8 @@ export default function Project({
 
           <a
             href={link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-6 inline-block text-sm font-medium text-gray-700 hover:text-black transition"
           >
             View Project →
