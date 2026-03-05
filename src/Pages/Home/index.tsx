@@ -12,11 +12,17 @@ export default function Home() {
 
         <h2 className="text-xl text-gray-500 mb-8">Software Engineer</h2>
 
+        <img
+          src="src/public/computer.jpg"
+          alt="Picture of a computer"
+          className="w-72 rounded-2xl border border-gray-200 shadow-sm mb-8 object-cover"
+        />
+
         <p className="text-gray-600 leading-relaxed max-w-2xl py-4">
           Welcome to my personal portfolio. Here you can learn more about my
           experience, explore the projects I've built, and see the technologies
           I enjoy working with. I focus on building clean, scalable, and
-          user-centered web applications.
+          user-centered applications.
         </p>
 
         <p className="text-gray-600 leading-relaxed max-w-2xl py-4">
