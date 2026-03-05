@@ -1,4 +1,5 @@
 import Navbar from "../../Components/Navbar";
+import computer from "../../../public/images/computer.jpg";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <h2 className="text-xl text-gray-500 mb-8">Software Engineer</h2>
 
         <img
-          src="public/computer.jpg"
+          src={computer}
           alt="Picture of a computer"
           className="w-72 rounded-2xl border border-gray-200 shadow-sm mb-8 object-cover"
         />
