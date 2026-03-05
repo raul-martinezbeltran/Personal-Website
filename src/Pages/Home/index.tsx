@@ -13,7 +13,7 @@ export default function Home() {
         <h2 className="text-xl text-gray-500 mb-8">Software Engineer</h2>
 
         <img
-          src="src/public/computer.jpg"
+          src="/computer.jpg"
           alt="Picture of a computer"
           className="w-72 rounded-2xl border border-gray-200 shadow-sm mb-8 object-cover"
         />
