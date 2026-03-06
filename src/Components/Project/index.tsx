@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 export default function Project({
   name,
   description,
@@ -32,14 +34,9 @@ export default function Project({
             ))}
           </div>
 
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-block text-sm font-medium text-gray-700 hover:text-black transition"
-          >
-            View Project →
-          </a>
+          <div className="mt-6">
+            <Button name="View Project →" link={link} />
+          </div>
         </div>
       </div>
     </div>
