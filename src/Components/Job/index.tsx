@@ -14,7 +14,7 @@ export default function Job({
   return (
     <div className="h-full">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col h-87.5">
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition flex flex-col h-87.5">
           {/* Top Section */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
             <div>
