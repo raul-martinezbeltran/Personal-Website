@@ -21,6 +21,7 @@ export default function Interests() {
             name="The Odin Project"
             description="Develop and strengthening web development skills through a cirriculum and exposure to projects."
             link="https://www.theodinproject.com/"
+            other={["Something"]}
           />
         </div>
       </main>
