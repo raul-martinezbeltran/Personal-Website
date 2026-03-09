@@ -12,9 +12,9 @@ export default function Job({
   tasks: string[];
 }) {
   return (
-    <div className="py-8">
+    <div className="h-full">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col h-87.5">
           {/* Top Section */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
             <div>
@@ -36,7 +36,7 @@ export default function Job({
 
           {/* Tasks */}
           {tasks.length > 0 && (
-            <ul className="mt-4 space-y-2 text-sm text-gray-600 leading-relaxed list-disc list-inside">
+            <ul className="mt-4 space-y-2 text-sm text-gray-600 leading-relaxed list-disc list-inside overflow-y-auto flex-1">
               {tasks.map((task) => (
                 <li key={task}>{task}</li>
               ))}

@@ -10,27 +10,19 @@ export default function Course({
   description: string;
 }) {
   return (
-    <div className="py-8">
-      <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-          {/* Top Row */}
-          <div className="flex justify-between items-start mb-2">
-            <div>
-              <h2 className="text-xl font-semibold tracking-tight text-gray-900">
-                {name}
-              </h2>
+    <div className="h-full">
+      <div className="h-full bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition flex flex-col">
+        {/* Name */}
+        <h2 className="text-lg font-semibold text-gray-900 mb-1">{name}</h2>
 
-              <p className="mt-1 text-sm text-gray-500">{institution}</p>
-            </div>
+        {/* Code */}
+        <div className="text-sm font-semibold text-gray-500 mb-2">{code}</div>
 
-            <span className="text-sm text-gray-500 font-medium">{code}</span>
-          </div>
+        {/* Institution */}
+        <p className="text-sm text-gray-500 mb-4">{institution}</p>
 
-          {/* Description */}
-          <p className="mt-2 text-gray-600 leading-relaxed max-w-2xl">
-            {description}
-          </p>
-        </div>
+        {/* Description */}
+        <p className="text-gray-600 leading-relaxed">{description}</p>
       </div>
     </div>
   );

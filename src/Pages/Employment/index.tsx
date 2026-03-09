@@ -16,7 +16,8 @@ export default function Employment() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        {/* Grid container for consistent spacing */}
+        <div className="grid sm:grid-cols-1 lg:grid-cols-1 gap-6">
           <Job
             company="Apple"
             title="Community Specialist"
@@ -40,6 +41,7 @@ export default function Employment() {
               "Uphold business standards and manage confidential information",
               "Trained partner leadership in product presentation and sales",
               "Debugged device configuration issues for demonstrations",
+              "Achieved highest ASP for division through a few fiscal quarters",
             ]}
           />
         </div>

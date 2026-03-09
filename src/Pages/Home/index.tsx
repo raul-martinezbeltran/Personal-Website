@@ -7,44 +7,49 @@ export default function Home() {
     <div className="text-gray-900 min-h-screen">
       <Navbar />
 
-      <main className="max-w-5xl mx-auto px-6 py-24">
+      <main className="max-w-6xl mx-auto px-6 py-24">
         {/* Hero Card */}
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm grid md:grid-cols-2 gap-12 items-start">
+        <div className="bg-white border border-gray-200 rounded-3xl p-10 md:p-16 shadow-lg grid md:grid-cols-2 gap-12 items-center">
           {/* Left Side: About */}
-          <div className="flex flex-col justify-start">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-4">
+          <div className="flex flex-col justify-center space-y-6">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
               Raul Martinez Beltran
             </h1>
-            <h2 className="text-xl text-gray-500 mb-6">Software Engineer</h2>
+            <h2 className="text-2xl md:text-3xl text-gray-500 font-medium">
+              Software Engineer
+            </h2>
 
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-gray-600 text-lg leading-relaxed">
               Welcome to my personal portfolio. Here you can learn more about my
               experience, explore the projects I've built, and see the
               technologies I enjoy working with. I focus on building clean,
               scalable, and user-centered applications.
             </p>
 
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               I graduated from U.C. San Diego with a B.S. in Computer Science
               and minored in cognitive science.
             </p>
           </div>
 
           {/* Right Side: Image + Buttons */}
-          <div className="flex flex-col items-center md:items-end gap-6">
+          <div className="flex flex-col items-center md:items-end gap-8">
             <img
               src={computerImage}
               alt="Picture of a computer"
-              className="w-72 rounded-2xl border border-gray-200 shadow-sm object-cover"
+              className="w-72 md:w-80 rounded-2xl border border-gray-200 shadow-lg object-cover"
             />
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
               <Button
                 name="GitHub"
                 link="https://github.com/raul-martinezbeltran"
               />
               <Button name="LinkedIn" link="https://linkedin.com" />
-              <Button name="Resume" link="#" />
+              <Button
+                name="Resume"
+                link="https://www.linkedin.com/in/raul-martinez-beltran/"
+              />
               <Button name="Portfolio" link="#" />
               <Button name="Contact" link="#" />
               <Button name="Blog" link="#" />

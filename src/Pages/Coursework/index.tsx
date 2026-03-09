@@ -16,7 +16,7 @@ export default function Coursework() {
           </p>
         </div>
 
-        <div className="space-y-2">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
           <Course
             code="CSE 100"
             name="Advanced Data Structures"
