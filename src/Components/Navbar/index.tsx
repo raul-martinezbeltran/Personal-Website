@@ -24,6 +24,9 @@ export default function Navbar() {
           <Link to="/employment" className={navItemStyle}>
             Employment
           </Link>
+          <Link to="/interests" className={navItemStyle}>
+            Interests
+          </Link>
         </div>
 
         {/* Hamburger / Close Button */}
@@ -67,6 +70,9 @@ export default function Navbar() {
             </Link>
             <Link to="/employment" className={navItemStyle}>
               Employment
+            </Link>
+            <Link to="/interests" className={navItemStyle}>
+              Interests
             </Link>
           </div>
         )}
