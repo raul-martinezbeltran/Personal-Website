@@ -18,6 +18,12 @@ export default function Coursework() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
           <Course
+            code="CSE 15L"
+            name="Software Tools and Techniques Laboratory"
+            institution="UC San Diego"
+            description="Hands-on exploration fo software development tools and techniques. Usage of git version control, bash scripting, and debuggers."
+          />
+          <Course
             code="CSE 100"
             name="Advanced Data Structures"
             institution="UC San Diego"
