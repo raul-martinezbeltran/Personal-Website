@@ -12,19 +12,18 @@ export default function Project({
   skills: string[];
 }) {
   return (
-    <div className="h-full">
-      <div className="h-full bg-gray-100 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition flex flex-col">
-        {/* Title */}
-        <h2 className="text-xl font-semibold tracking-tight text-gray-900">
-          {name}
-        </h2>
+    <div className="flex flex-col w-full bg-gray-100 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition">
+      {/* Title */}
+      <h2 className="text-xl font-semibold tracking-tight text-gray-900">
+        {name}
+      </h2>
 
-        {/* Description */}
-        <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+      {/* Main content: description + skills */}
+      <div className="flex-1 flex flex-col mt-2">
+        <p className="text-sm text-gray-600 leading-relaxed flex-1">
           {description}
         </p>
 
-        {/* Skills */}
         <div className="mt-4 flex flex-wrap gap-2">
           {skills.map((skill, index) => (
             <span
@@ -35,11 +34,11 @@ export default function Project({
             </span>
           ))}
         </div>
+      </div>
 
-        {/* Push button to bottom */}
-        <div className="mt-auto pt-6">
-          <Button name="View Project →" link={link} />
-        </div>
+      {/* Button sticks to bottom */}
+      <div className="mt-6">
+        <Button name="View Project →" link={link} />
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 auto-rows-fr items-stretch">
           <Project
             name="Personal Portfolio Web Application"
             description="A web app used to showcase my projects, coursework, employment. The purpose is to showcase who I am as a candidate.
@@ -62,7 +62,7 @@ export default function Projects() {
             ]}
           />
           <Project
-            name="Taxi Travel Time Trajectories Deep Learning Model"
+            name="Taxi Travel Trajectories Deep Learning Model"
             description="Built a deep learning model to predict the travel time for many taxis in Portugal. Data utilized to train the model had been cleaned, santized, and transformed.
             Additionally, exploratory data analysis had been performed to further dive into the dataset that was being investigated."
             link="https://github.com/raul-martinezbeltran/Taxi-Travel-Time-Trajectories"
