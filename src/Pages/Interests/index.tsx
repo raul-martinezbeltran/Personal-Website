@@ -19,7 +19,7 @@ export default function Interests() {
         <div className="grid sm:grid-cols-1 lg:grid-cols-1 gap-6">
           <Interest
             name="The Odin Project"
-            description="Develop and strengthening web development skills through a cirriculum and exposure to projects."
+            description="Develop and strengthening web development skills through a cirriculum and exposure to projects with HTML, CSS, JavaScript."
             link="https://www.theodinproject.com/"
             other={[
               "Front End Development",
@@ -29,7 +29,7 @@ export default function Interests() {
           />
           <Interest
             name="Dive Into Deep Learning"
-            description="Machine learning and deep learning"
+            description="An interactive deep learning book with code, math, and discussions. Currently using the version that is implemented with PyTorch."
             link="https://d2l.ai/"
             other={["Machine Learning", "Deep Learning"]}
           />
