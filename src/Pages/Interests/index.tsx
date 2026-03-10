@@ -21,7 +21,17 @@ export default function Interests() {
             name="The Odin Project"
             description="Develop and strengthening web development skills through a cirriculum and exposure to projects."
             link="https://www.theodinproject.com/"
-            other={["Something"]}
+            other={[
+              "Front End Development",
+              "Back End Development",
+              "Full Stack Development",
+            ]}
+          />
+          <Interest
+            name="Dive Into Deep Learning"
+            description="Machine learning and deep learning"
+            link="https://d2l.ai/"
+            other={["Machine Learning", "Deep Learning"]}
           />
         </div>
       </main>
