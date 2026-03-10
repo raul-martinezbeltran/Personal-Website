@@ -20,45 +20,45 @@ export default function Coursework() {
           <Course
             code="CSE 100"
             name="Advanced Data Structures"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Theoretical and performance analysis of high performance data structures and algorithms. Some data structures include unbalanced tress, graphs, and priority queues."
           />
           <Course
             code="CSE 101"
             name="Design and Analysis of Algorithms"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Design and analysis of algorithms, measuring complexity of algorithms, time and storage."
           />
           <Course
             code="CSE 110"
             name="Software Engineering"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Introduction to software development and engineering methods. Hands-on with specification, design,
             implementation, and testing. Agile and tools such as IDE's, version control and test harness were used."
           />
           <Course
             code="CSE 112"
             name="Advanced Software Engineering"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Software engineering topics with large systems such as requirements, specifications, testing, maintenance, and design.
             A huge emphasis is placed on development tools and automated environments."
           />
           <Course
             code="CSE 120"
             name="Operating Systems Principles"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Operating systems concepts, including processes, synchronization, scheduling, memory management, virtual memory, file systems, and protection."
           />
           <Course
             code="CSE 132A"
             name="Database Systems Principles"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Basic concepts of databases, including data modeling, relational databses, query languages, optimization, dependencies, schema design, and concurrency control."
           />
           <Course
             code="CSE 160"
             name="Introduction to Parallel Computing"
-            institution="U.C. San Diego"
+            institution="UC San Diego"
             description="Introduction to high performance parallel computing: parallel architecture, algorithms, software, and problem-solving techniques. Processor-memory organizations, shared and nonshared memory models:
             message passing and multithreading, data parallelism; speedup, efficiency, synchronization, and scalability."
           />
