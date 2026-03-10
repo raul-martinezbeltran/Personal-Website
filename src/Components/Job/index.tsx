@@ -14,8 +14,7 @@ export default function Job({
   return (
     <div className="h-full">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition flex flex-col h-87.5">
-          {/* Top Section */}
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transform transition flex flex-col h-80">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
             <div>
               <h2 className="text-xl font-semibold tracking-tight text-gray-900">
@@ -34,7 +33,6 @@ export default function Job({
             </div>
           </div>
 
-          {/* Tasks */}
           {tasks.length > 0 && (
             <ul className="mt-4 space-y-2 text-sm text-gray-600 leading-relaxed list-disc list-inside overflow-y-auto flex-1">
               {tasks.map((task) => (
