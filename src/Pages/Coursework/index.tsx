@@ -43,6 +43,25 @@ export default function Coursework() {
             description="Software engineering topics with large systems such as requirements, specifications, testing, maintenance, and design.
             A huge emphasis is placed on development tools and automated environments."
           />
+          <Course
+            code="CSE 120"
+            name="Operating Systems Principles"
+            institution="U.C. San Diego"
+            description="Operating systems concepts, including processes, synchronization, scheduling, memory management, virtual memory, file systems, and protection."
+          />
+          <Course
+            code="CSE 132A"
+            name="Database Systems Principles"
+            institution="U.C. San Diego"
+            description="Basic concepts of databases, including data modeling, relational databses, query languages, optimization, dependencies, schema design, and concurrency control."
+          />
+          <Course
+            code="CSE 160"
+            name="Introduction to Parallel Computing"
+            institution="U.C. San Diego"
+            description="Introduction to high performance parallel computing: parallel architecture, algorithms, software, and problem-solving techniques. Processor-memory organizations, shared and nonshared memory models:
+            message passing and multithreading, data parallelism; speedup, efficiency, synchronization, and scalability."
+          />
         </div>
       </main>
     </div>
