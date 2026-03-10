@@ -12,8 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-gray-600 text-sm">
-            Work that have performed over the years, involving academic and
-            personal project work.
+            Work over the years, involving academic and personal project work.
           </p>
         </div>
 
