@@ -18,6 +18,12 @@ export default function Interests() {
 
         <div className="grid sm:grid-cols-1 lg:grid-cols-1 gap-6">
           <Interest
+            name="FastAPI"
+            description="Diving deeper into making Rest APIs using a Python backend framework."
+            link="https://fastapi.tiangolo.com/"
+            other={["Backend Development", "SQL Databases", "ORMs"]}
+          />
+          <Interest
             name="The Odin Project"
             description="Develop and strengthening web development skills through a cirriculum and exposure to projects with HTML, CSS, JavaScript."
             link="https://www.theodinproject.com/"
